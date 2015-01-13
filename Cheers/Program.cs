@@ -20,7 +20,7 @@ namespace Cheers {
           System.Console.WriteLine("Give me " + article + "..." + System.Char.ToLower(name[i]));
       }
       System.Console.WriteLine(name + "  is Grand!");
-      System.Console.WriteLine("When is your birthday?");
+      System.Console.WriteLine("When is your birthday?"); 
       string birthday = System.Console.ReadLine();
 
       DateTime bdayTime = DateTime.Parse(birthday);
